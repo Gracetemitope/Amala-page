@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.container {
+ align-items: center;
+ display: flex;
+}
+.phone1, .phone2 {
+    width: 280px;
+    height: 510px;
+    background-color: #ffffff;
+    border-radius: 35px;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 0px;
+}
+.speaker-camera {
+    display: flex;
+}
+#speaker {
+    width: 50px;
+    background-color: lightgray;
+    margin-left: 45%;
+    height: 2px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#camera {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 10px;
+    box-shadow: 1px 1px lightgrey;
+
+}
+#first-background {
+    width: 250px;
+    height: 400px;
+    background-color: black;
+    /* border: 3px solid red; */
+    margin-left: 15px;
+    margin-top: 20px;
+    /* background-image: url("./first-background.jpg"); */
+    background-size: 250px 150px;
+    background-repeat: no-repeat;
+    /* filter: blur(5px); */
+    /* margin-right: 20px; */
+}
+#image {
+    /* border: 3px solid red; */
+    height: 150px;
+    background-image: url("./first-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    /* filter: blur(2.5px); */
+    background-color: black;
+}
+#image-color {
+    /* border: 2px solid red; */
+    background-color: black;
+    height: 150px;
+    margin-top: -150px;
+    opacity: 0.85;
+
+}
+#hub {
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: -135px;
+    margin-left: 50px;
+    /* border: 3px solid red; */
+    filter: blur(0px);
+    text-align: center;
+
+}
+#hub-color {
+    color: green;
+    
+}
+#other-text {
+    filter: blur(0);
+    margin-top: 50px;
+    /* border: 3px solid black; */
+    /* background-color: black; */
+    /* opacity: 0.8; */
+    /* background: transparent; */
+}
+h2 {
+    color: white;
+    opacity: 1.5;
+}
+h3 {
+    color: white;
+    opacity: 2;
+}
+#search {
+    width: 220px ;
+    background-color: rgb(43, 42, 42);
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.fa-search {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    margin-left: 20px;
+}
+input::placeholder {
+    color: rgb(184, 181, 181);
+    /* text-align: center; */
+}
+.food-items {
+    display: block;
+    color: white;
+    /* border: 2px solid red; */
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 180px;
+    height: 180px;
+
+}
+#row1, #row2, #row3 {
+    display: flex;
+    margin-top: 3px;
+}
+#item1, #item11 {
+    display: block;
+    width: 58px;
+    height: 60px;
+    border-bottom: 0.03px solid rgb(226, 224, 224);
+    text-align: center
+}
+#item11 {
+    border-bottom: none;
+}
+#item2, #item3, #item21, #item212 {
+    display: block;
+    width: 60px;
+    height: 60px;
+    /* margin-top: 10px; */
+    /* border: 2px solid blue; */
+    margin-left: 0;
+    text-align: center;
+    background-color: green;
+}
+#item3, #item31, #item212 {
+    background-color: black;
+    border-left: 0.04px solid white;
+    border-bottom: 0.05px solid white;
+}
+#item212, #item31 {
+    border-bottom: none;
+    text-align: center;
+}
+#item21 {
+    background-color: black;
+    border-left: 0.05px solid white;
+    border-right: 0.05px solid white;
+    border-bottom: 0.05px solid white;
+}
+
+.phone2 {
+    margin-left: 30px;
+    margin-top: 20%;
+
+}
+.fa-angle-left {
+    margin-left: 30px;
+    margin-top: 15px;
+
+}
+#site-name {
+    color: black;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#images-row {
+    display: flex;
+    margin-top: 15px;
+}
+#first-image, #second-image, #third-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url("./IMG_20180726_075103_605.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+#second-image {
+    margin-left: -10px;
+    width: 27px;
+    height: 27px;
+    background-image: url("./79F4CABC-B100-44EC-98C8-D86BD26E23A3L0001.jpg");
+}
+#third-image {
+    background-image: url("./IMG_20180901_145443.jpg");
+    margin-left: -8px;
+    
+}
+#Amala-people {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.6rem;
+    margin-top: 8px;
+    color: rgb(97, 94, 94);
+}
+#food-row {
+    display: flex;
+    margin-left: 30px;
+}
+#food1 {
+    width: 120px;
+    height: 128px;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    background-image: url("./ac199204-df06-4261-91d8-96c340c27f1b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#listtwo, #listthree {
+    display: block;
+}
+#food2, #food3 {
+    width: 70px;
+    height: 60px;
+    border-radius: 16px;
+    margin-left: 8px;
+    margin-top: 20px;
+    background-image: url("./9d1cc840-082c-41b9-9d9d-0219f97518bf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#food3 {
+    margin-top: 8px;
+    background-image: url("./8bb798c5-14a2-4b7e-b784-1224b011515e.jpg");
+}
+#food4, #food5 {
+    margin-top: 20px;
+    width: 30px;
+    height: 60px;
+    border-radius: 10px  0 0 10px;
+    margin-left: 8px;
+    background-image: url("./ac199204-df06-4261-91d8-96c340c27f1b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#food5 {
+    margin-top: 8px;
+    background-image: url("./fifth\ food.jpg");
+}
+#text-container {
+    display: flex;
+}
+#icon1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.fa-book, .fa-clock {
+    margin-top: 8px;
+}
+#first-text {
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#About-text {
+    font-size: 0.7rem;
+}
+.fa-circle {
+    margin-top: 3px;
+    margin-left: 43%;
+    color: #ffffff;
+    text-shadow: 2px 2px grey;
+    font-size: 2.5rem;
+}
+/* Responsiveness */
+@media (max-width: 750px) {
+    .container {
+        display: block;
+    }
+    .phone1 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+}
